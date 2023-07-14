@@ -6,16 +6,18 @@
   box-sizing: border-box;
 }
 
+input:focus {
+  outline: none;
+  border: 1px solid #656e7a;
+}
+
 .registration-font-style {
   line-height: 1.1875em;
   text-transform: capitalize;
   font-family: "Work Sans", sans-serif;
 }
 
-input:focus {
-  outline: none;
-  border: 1px solid #656e7a;
-}
+
 
 
 
